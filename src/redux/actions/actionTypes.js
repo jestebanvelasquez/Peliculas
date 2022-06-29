@@ -1,0 +1,5 @@
+export const GET_MOVIES = 'GET_MOVIES';
+export const FAVORITES = 'FAVORITES';
+export const DETAIL_MOVIE = 'DETAIL_MOVIE';
+export const DELETE_FAVORITE='DELETE_FAVORITE';
+export const DELETE_MOVIE = 'DELETE:MOVIE';
