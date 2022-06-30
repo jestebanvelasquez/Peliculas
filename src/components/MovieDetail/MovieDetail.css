@@ -1,0 +1,44 @@
+.container-detail{
+    background-color: rgba(136, 136, 135, 0.381);
+    color: rgb(235, 222, 220);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.container-detail .detail {
+    max-width: 300px;
+    opacity: .4;
+}
+.poster img {
+    border-radius: 30px;
+    width: 600px;
+    
+
+}
+
+.head {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-detail h1{
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: auto;
+    height: auto;
+    font-size: 4rem;
+    color: rgb(249, 206, 51);
+    background: rgba(231, 231, 231, 0.36);
+    text-shadow: 3px 3px 3px #555;
+    border-radius: 10px
+}
+.content p{
+    
+}

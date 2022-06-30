@@ -36,10 +36,10 @@ export default function SearchMovie (){
         <div className="container">
             {/* <span> Encuentra tus peliculas: </span> */}
 
-            <form 
+            <form className="content-form"
             onSubmit={(e)=> handleSubmit (e)}>
 
-                <div>
+                <div className="content-input">
                     <input
                     type='text'
                     placeholder='buscar pelicula...'
@@ -47,28 +47,10 @@ export default function SearchMovie (){
                     onChange={(e) => handleChange(e)}
                     />
                 </div>
-                <button className="btn" type='submit'>Buscar</button>
+                <div  >
+                    <button className="btn"   type='submit'>Buscar</button>
+                </div>
             </form>
-
-            {/* {
-                moviesLoaded ? moviesLoaded.map((movie)=>{
-                        const objPelicula = {
-                            imdbID: movie.imdbID,
-                            Title: movie.Title,
-                            Year: movie.Year,
-                            Type: movie.type,
-                            Poster: movie.Poster,
-                        }
-                            
-                        return (
-                            <div className="card-container">
-                            <Movies  objPelicula= {objPelicula}/>
-
-                            </div>
-                            )
-                        
-                }) : 'no hay peliculas con ese titulo'
-            } */}
             
         </div>
     )

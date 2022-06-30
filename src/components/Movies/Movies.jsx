@@ -19,7 +19,7 @@ export default function Movies() {
                                     <Link className='' to={`/movie/${movie.imdbID}`}>
                                         <p className='text-title'>{movie.Title}</p>
                                     </Link>
-                                    <button className='btn' onClick={() => dispatch(favorites(movie))}> Me gusta </button>
+                                    <button className='btn'  onClick={() => dispatch(favorites(movie))}> Me gusta </button>
                                 </div>
                             </div>
                         </div>

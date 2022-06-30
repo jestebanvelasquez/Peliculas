@@ -1,0 +1,25 @@
+.content {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    background-color: rgba(56, 56, 56, 0.558);
+}
+.ul-items{
+    list-style: none;
+}
+.li-items a {
+    padding-left: 15px;
+    text-decoration: none;
+    color: rgb(241, 228, 40);
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+}
+

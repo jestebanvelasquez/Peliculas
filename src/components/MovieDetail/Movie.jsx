@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import {detailMovie}  from "../../redux/actions/actionMovies.js";
+import './MovieDetail.css'
+import detail from '../../assets/detail.svg'
 
 
 export default function Movie (){
@@ -20,15 +22,26 @@ export default function Movie (){
     },[])
 
     return (
-        <ul> 
-            <p> {movie.Title}</p>
-            <p>{movie.Genre}</p>
-            <img src={movie.Poster} alt='poster' />
+        <div className="container-detail"> 
+            <div className="header">
+                <h1  >Detail To Movie</h1>
+                <img className="detail" src={detail} alt="" />
 
-                    
-                    
-
-        </ul>
+            </div>
+            <div className="head">
+                <div className="poster">
+                    <img src={movie.Poster} alt='poster' />
+                </div>
+                <div className="content">
+                    <p> {movie.Title}</p>
+                    <p> Genre: {movie.Genre}</p>
+                    <p>Rated: {movie.Rated}</p>
+                    <p> Director: {movie.Director}</p>
+                    <p>Actors: {movie.Actors}</p>
+                    <p>Plop: {movie.Plot}</p>
+                </div>
+            </div>
+        </div>
     )
 }
 
