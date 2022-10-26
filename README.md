@@ -5,7 +5,7 @@
 ## Descripcion del Proyecto:
 
 <h4>
-  La idea general fué desarrollar una aplicacion conectada a una api externa, en la cual se puedan ver buscar peliculas por titulo disponibles junto con información relevante de las mismas utilizando la api externa  https://api.thedogapi.com/ y a partir de ella poder, entre otras cosas:
+  La idea general fué desarrollar una aplicacion conectada a una api externa, en la cual se puedan ver buscar peliculas por titulo disponibles junto con información relevante de las mismas utilizando una  api externa  y a partir de ella poder, entre otras cosas:
   
 
 - Buscar peliculas por nombre
